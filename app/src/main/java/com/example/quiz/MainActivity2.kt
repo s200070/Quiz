@@ -15,7 +15,7 @@ import java.util.concurrent.CompletableFuture
 class MainActivity2 : AppCompatActivity() {
     private lateinit var binding: ActivityMain2Binding
     private var data = arrayListOf<ArrayList<String>>()
-    private val studentNames = arrayListOf<String>("s20007", "s20014", "s20024")
+    private val studentNames = arrayListOf<String>("s20007","s20010","s20014","s20024")
     private var allData = arrayListOf<ArrayList<String>>()
     private var crrectCount = 0
     private var nowCount = 1
